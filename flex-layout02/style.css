@@ -16,11 +16,34 @@ body {
 .levy {
   background-color: #f1c40f;
 }
+
 .horni {
   background-color: #2ecc71;
 }
+
 .dolni {
   background-color: #e74c3c;
 }
 
 /* ---------------------------------------------------- */
+.kontejner {
+  display: flex;
+}
+
+.levy {
+  flex-basis: 50%;
+}
+
+.pravy {
+  flex-basis: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+.horni {
+  flex-grow: 1;
+}
+
+.dolni {
+  flex-grow: 1;
+}
